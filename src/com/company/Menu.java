@@ -18,7 +18,7 @@ public class Menu {
             System.out.println("2.  Numero de nacimientos en Pakistan ");
             System.out.println("3.  Nacimientos en los distritos con la palabra \"Ciutat\" ");
             System.out.println("4.  Nacimientos en los paises que empiecen por 'P'");
-            System.out.println("\n0. Sortir");
+            System.out.println("0. Sortir");
 
             menu = input.nextLine();
             CsvToBean<Naixement> llista = naixementCsvToBean;
